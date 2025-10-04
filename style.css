@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.navbar {
+    max-height: 70px;
+}
+
+@media only screen and (max-width: 990px) {
+    .navbar {
+        max-height: fit-content;
+    }
+}
+
+/* navbar end */
+
+
+/* hero */
+.hero {
+    background-image: url(./images/img1.jpg);
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100vw;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero2 {
+
+    align-items: center;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-image: url('./images/s2.jpg');
+    /* Add your background image here */
+    background-size: cover;
+    text-align: center;
+
+
+}
+
+
+/* Sub-headings For Home Page */
+.sub-heading {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+
+.heading {
+    text-align: center;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.heading2 {
+    text-align: center;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+/* hero end */
+/* first card  */
+.products {
+    margin-top: 100px;
+    display: flex;
+    row-gap: 40px;
+    flex-wrap: wrap;
+    /* height: 500px; */
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hair {
+    cursor: pointer;
+    width: 250px;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    transition: 1s;
+    text-align: center;
+}
+
+:hover.hair {
+    font-size: large;
+    scale: 1.1;
+    border-radius: 5%;
+    box-shadow: 0px 6px 26px 23px rgba(214, 180, 180, 0.38);
+    -webkit-box-shadow: 0px 6px 26px 23px rgba(214, 180, 180, 0.38);
+    -moz-box-shadow: 0px 6px 26px 23px rgba(214, 180, 180, 0.38);
+}
+
+.img {
+
+    padding-top: 5px;
+}
+
+.par {
+    margin-top: 10px;
+    color: black;
+}
+
+/* first card end */
+
+/* cards 2 */
+
+.treatments {
+    padding: 30px;
+    margin-top: 150px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.treatments2 {
+    padding: 30px;
+    margin-top: 150px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.img2 {
+    background-color: aqua;
+    flex-basis: 50%;
+    width: 100%;
+    /* margin-left: 50px; */
+}
+
+.text {
+    flex-basis: 50%;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: white;
+}
+
+/* cards 2 end */
+
+/* to products */
+.top {
+    /* height: 850px; */
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item {
+    border-radius: 2%;
+    height: 550px;
+    width: 300px;
+    background-color: white;
+    transition: 1s;
+}
+
+:hover.item {
+    border-radius: 2%;
+    scale: 1.1;
+    box-shadow: 0px 6px 26px 23px rgba(214, 180, 180, 0.38);
+    -webkit-box-shadow: 0px 6px 26px 23px rgba(214, 180, 180, 0.38);
+    -moz-box-shadow: 0px 6px 26px 23px rgba(214, 180, 180, 0.38);
+}
+
+.btn {
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+
+:hover.btn {
+    scale: 1.1;
+}
+
+.helo {
+    margin-top: 10px;
+    text-align: center;
+    width: 290px;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* top products end */
+
+
+/* contact */
+
+
+.Problem {
+    display: flex;
+    width: 100vw;
+    height: 200vhS;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 5pc;
+}
+
+.reason {
+    max-width: 40%;
+    padding-top: 20px;
+    padding-right: 12px;
+    padding-left: 12px;
+    text-align: center;
+    border: 2px solid yellow;
+    border-radius: 8%;
+}
+
+
+.solution {
+    max-width: 40%;
+    padding-top: 20px;
+    padding-right: 12px;
+    padding-left: 12px;
+    text-align: center;
+    border: 2px solid yellow;
+    border-radius: 8%;
+}
+
+
+.img4 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* media queries*/
+@media only screen and (max-width: 600px) {
+    .sub-heading {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .treatments {
+        padding: 30px;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+
+    .treatments2 {
+        flex-direction: column-reverse;
+    }
+
+    .top {
+        flex-direction: column;
+        column-gap: 20px;
+    }
+
+    .img5 {
+        width: 350px;
+        height: 250px;
+    }
+
+    .Problem {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .solution {
+        margin-top: 5pc;
+        padding-top: 2pc;
+        font-size: 14px;
+        border-radius: 3%;
+        max-width: fit-content;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .reason {
+        padding-top: 2pc;
+        font-size: 14px;
+        border-radius: 3%;
+        max-width: fit-content;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    :hover.reason {
+        border-radius: 3%;
+    }
+
+    .gold {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 350px) {
+
+    .sub-heading {
+        color: white;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #h1 {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .heading2 {
+        max-height: fit-content;
+        max-width: fit-content;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .logo {
+        margin-right: 0%;
+    }
+
+    .top {
+        margin-top: 50px;
+
+    }
+
+    .item {
+        margin-top: 20px;
+        margin-right: 5px;
+    }
+
+    .footer {
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+
+    .item {
+
+        height: 500px;
+        width: 200px;
+        border-radius: 2%;
+        background-color: white;
+        transition: 1s;
+    }
+
+    .img3 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .img5 {
+        width: 200px;
+        height: 300px;
+    }
+
+    .helo {
+        width: 200px;
+        height: 300px;
+    }
+
+    .btn {
+        width: 150px;
+        border: 2px solid white;
+        border-radius: 20px;
+    }
+
+    .heading {
+        text-align: center;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+    }
+
+    .hair {
+        cursor: pointer;
+        width: 150px;
+        max-height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        color: black;
+        transition: 1s;
+        text-align: center;
+    }
+
+    .img {
+        height: 155px;
+        width: 145px;
+        padding-left: 2px;
+        padding-top: 2px;
+    }
+
+    .Problem {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .solution {
+        margin-top: 5pc;
+        padding-top: 2pc;
+        font-size: 10px;
+        max-width: fit-content;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    :hover.solution {
+        border-radius: 3%;
+    }
+
+    .reason {
+        padding-top: 2pc;
+        font-size: 10px;
+        max-width: fit-content;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    :hover.reason {
+        border-radius: 3%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* contact */
